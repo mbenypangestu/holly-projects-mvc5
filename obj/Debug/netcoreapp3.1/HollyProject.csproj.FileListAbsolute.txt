@@ -157,3 +157,10 @@
 /media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/User/Details.cshtml.g.cs
 /media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs
 /media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs
+/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Role/Create.cshtml.g.cs
+/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Role/Delete.cshtml.g.cs
+/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Role/Details.cshtml.g.cs
+/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Role/Edit.cshtml.g.cs
+/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Role/Index.cshtml.g.cs
+/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout_Admin.cshtml.g.cs
+/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Dashboard/Index.cshtml.g.cs

@@ -20506,6 +20506,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Role/Details.cshtml",
+      "TargetPath": "Views/Admin/Role/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -20518,6 +20523,16 @@
     {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/User/Delete.cshtml",
       "TargetPath": "Views/User/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Role/Edit.cshtml",
+      "TargetPath": "Views/Admin/Role/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Shared/_Layout_Admin.cshtml",
+      "TargetPath": "Views/Shared/_Layout_Admin.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20551,6 +20566,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Dashboard/Index.cshtml",
+      "TargetPath": "Views/Admin/Dashboard/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Role/Create.cshtml",
+      "TargetPath": "Views/Admin/Role/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/User/Edit.cshtml",
       "TargetPath": "Views/User/Edit.cshtml",
       "FileKind": "mvc"
@@ -20568,6 +20593,16 @@
     {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/_ViewImports.cshtml",
       "TargetPath": "Views/_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Role/Index.cshtml",
+      "TargetPath": "Views/Admin/Role/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Role/Delete.cshtml",
+      "TargetPath": "Views/Admin/Role/Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

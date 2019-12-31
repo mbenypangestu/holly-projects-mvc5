@@ -1,0 +1,49 @@
+@model HollyProject.Models.Role
+
+@{
+    Layout = "_Layout_Admin";
+}
+
+@{
+    ViewData["Title"] = "Role User";
+}
+
+<div class="section-header">
+    <h1>Role User</h1>
+    <div class="section-header-breadcrumb">
+        <div class="breadcrumb-item active"><a href="/Admin/Dashboard">Dashboard</a></div>
+        <div class="breadcrumb-item active"><a href="/Admin/Role">Role</a></div>
+    </div>
+</div>
+
+
+<div class="section-body">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Details</h4>
+                </div>
+
+                <div class="card-body">
+                    <div class="container">
+                        <dl class="row" style="font-size: 16px">
+                            <dt class = "col-sm-2" >
+                                @Html.DisplayNameFor(model => model.role)
+                            </dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.role)
+                            </dd>
+                        </dl>
+
+                        <div>
+                            <a asp-action="Edit" asp-route-id="@Model.id">Edit</a> |
+                            <a asp-action="Index">Back to List</a>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

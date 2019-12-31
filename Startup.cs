@@ -59,7 +59,23 @@ namespace HollyProject
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(
+                    name: "admin",
+                    pattern: "Admin/{controller=Dashboard}/{action=Index}/{id?}");
             });
+
+            // app.UseMvc(routes =>
+            // {
+            //     routes.MapRoute(
+            //         "Admin",
+            //         "admin/{controller}/{action}/{id}",
+            //         new
+            //         {
+            //             controller = "Role",
+            //             action = "Index"
+            //         }
+            //     );
+            // });
         }
     }
 }

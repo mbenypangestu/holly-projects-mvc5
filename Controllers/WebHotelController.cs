@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 using HollyProject.Models;
 using System.Diagnostics;
 
-namespace MvcMovie.Controllers
+namespace HollyProject.Controllers
 {
     public class WebHotelController : Controller
     {
