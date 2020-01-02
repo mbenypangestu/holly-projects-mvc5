@@ -1,0 +1,160 @@
+@model IEnumerable<HollyProject.Models.Booking>
+
+@{
+    Layout = "_Layout_HomePage";
+    ViewData["Title"] = "Index";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/lib/stisla/assets/css/style.css">
+    <link rel="stylesheet" href="~/lib/stisla/assets/css/components.css">
+}
+
+<div class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(../../img/bg-img/16.jpg);">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12">
+                <div class="breadcrumb-content text-center">
+                    <h2 class="page-title">History Transaction</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-body" style="margin-top : 50px">
+    <div class="container">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-header-form" style="width:35%">
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+
+                                <div class="input-group-btn">
+                                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped" id="table-content">
+                            <tr>
+                                <th width="5%">
+                                    <div class="custom-checkbox custom-control">
+                                        <input type="checkbox" data-checkboxes="mygroup" data-checkbox-role="dad" class="custom-control-input" id="checkbox-all">
+                                        <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                                    </div>
+                                </th>
+                                <th>
+                                    Checkin Date
+                                </th>
+                                <th>
+                                    Checkout Date
+                                </th>
+                                <th>
+                                    Jumlah orang
+                                </th>
+                                <th>
+                                    Jumlah hari
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.total)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.User)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Hotel)
+                                </th>
+                                <th>
+                                    Request Schedule
+                                </th>
+                                <th>
+                                    Request Cancel
+                                </th>
+                                <th>#</th>
+                                @* <th>@Html.DisplayNameFor(model => model.role)</th> *@
+                            </tr>
+
+                            @foreach(var item in Model) {
+                                <tr>
+                                    <td>
+                                        <div class="custom-checkbox custom-control">
+                                            <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input" id="checkbox-1">
+                                            <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                        </div>
+                                    </td>
+                                    
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.date_checkin)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.date_checkout)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.jml_orang)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.jml_hari)
+                                    </td>
+                                    <td>
+                                        Rp. @Html.Raw(@String.Format("{0:N2}", item.total)) 
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.User.name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Hotel.name)
+                                    </td>
+                                    <td>
+                                        @if (item.request_reschedule == 0) {
+                                            @if (item.is_canceled == 1) {
+                                                <div class="badge badge-secondary">Reschedule not available</div>
+                                            } else {
+                                                <a class="btn btn-primary" asp-action="RequestReschedule" asp-route-id="@item.id">
+                                                    <i class="fas fa-redo"></i> Reschedule
+                                                </a>
+                                            }
+                                        } else {
+                                            @if (item.is_canceled == 1) {
+                                                <div class="badge badge-secondary">Reschedule not available</div>
+                                            } else {
+                                                @if (item.is_rescheduled == 1) {
+                                                    <div class="badge badge-success">Rescheduled</div>
+                                                } else {
+                                                    <div class="badge badge-warning">Reschedule Requested</div>
+                                                }
+                                            }
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (item.request_cancel == 0) {
+                                            <a class="btn btn-danger" asp-action="Cancel" asp-route-id="@item.id">
+                                                <i class="fas fa-times"></i> Cancel
+                                            </a>
+                                        } else {
+                                            @if (item.is_canceled == 1) {
+                                                <div class="badge badge-secondary">Canceled</div>
+                                            } 
+                                        }
+                                    </td>
+
+                                    <td>
+                                        <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.id">Details</a>
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

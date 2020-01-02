@@ -1,0 +1,81 @@
+@model HollyProject.Models.Hotel
+
+@{
+    Layout = "_Layout_Admin";
+}
+
+@{
+    ViewData["Title"] = "Hotels";
+}
+
+<div class="section-header">
+    <h1>Hotels</h1>
+    <div class="section-header-breadcrumb">
+        <div class="breadcrumb-item active"><a href="/Admin/Dashboard">Dashboard</a></div>
+        <div class="breadcrumb-item active"><a href="/Admin/Hotel">Hotels</a></div>
+    </div>
+</div>
+
+
+<div class="section-body">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header" style="display: block">
+                    <h3>Delete</h3>
+                    <h4 class="">Are you sure you want to delete this?</h4>
+                </div>
+
+                <div class="card-body">
+                    <div class="container">
+                        <dl class="row" style="font-size: 16px">
+                            <dt class = "col-sm-2">
+                                @Html.DisplayNameFor(model => model.name)
+                            </dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.name)
+                            </dd>
+                            <dt class = "col-sm-2">
+                                @Html.DisplayNameFor(model => model.deskripsi)
+                            </dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.deskripsi)
+                            </dd>
+                            <dt class = "col-sm-2">
+                                @Html.DisplayNameFor(model => model.city)
+                            </dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.city)
+                            </dd>
+                            <dt class = "col-sm-2">
+                                @Html.DisplayNameFor(model => model.country)
+                            </dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.country)
+                            </dd>
+                            <dt class = "col-sm-2">
+                                @Html.DisplayNameFor(model => model.hotel_class)
+                            </dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.hotel_class)
+                            </dd>
+                            <dt class = "col-sm-2">
+                                @Html.DisplayNameFor(model => model.rating)
+                            </dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.rating)
+                            </dd>
+                        </dl>
+                        
+                        <form asp-action="Delete">
+                            <input type="hidden" asp-for="id" />
+                            <input type="submit" value="Delete" class="btn btn-danger mr-2" /> |
+                            <a asp-action="Index" class="ml-2">Back to List</a>
+                        </form>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

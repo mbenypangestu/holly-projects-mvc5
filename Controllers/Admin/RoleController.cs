@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HollyProject.Models;
-using MvcMovie.Data;
+using HollyProject.Data;
 
 namespace HollyProject.Controllers
 {

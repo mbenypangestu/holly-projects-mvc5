@@ -1,0 +1,107 @@
+@model IEnumerable<HollyProject.Models.Booking>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.date_checkin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.date_checkout)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.jml_orang)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.jml_hari)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.is_accepted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.is_canceled)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.is_rescheduled)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.is_rejected)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.request_reschedule)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.request_cancel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.date_checkin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date_checkout)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.jml_orang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.jml_hari)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_accepted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_canceled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_rescheduled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_rejected)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.request_reschedule)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.request_cancel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hotel.id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -20501,6 +20501,11 @@
   "RootNamespace": "HollyProject",
   "Documents": [
     {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/Edit.cshtml",
+      "TargetPath": "Views/Booking/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Home/Privacy.cshtml",
       "TargetPath": "Views/Home/Privacy.cshtml",
       "FileKind": "mvc"
@@ -20511,18 +20516,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/HotelPage/Delete.cshtml",
+      "TargetPath": "Views/HotelPage/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/User/Details.cshtml",
+      "TargetPath": "Views/Admin/User/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/User/Details.cshtml",
-      "TargetPath": "Views/User/Details.cshtml",
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Auth/Signup.cshtml",
+      "TargetPath": "Views/Auth/Signup.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/User/Delete.cshtml",
-      "TargetPath": "Views/User/Delete.cshtml",
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/Index.cshtml",
+      "TargetPath": "Views/Booking/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/User/Edit.cshtml",
+      "TargetPath": "Views/Admin/User/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Hotel/Edit.cshtml",
+      "TargetPath": "Views/Admin/Hotel/Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20531,8 +20556,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Hotel/Create.cshtml",
+      "TargetPath": "Views/Admin/Hotel/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/HotelPage/Details.cshtml",
+      "TargetPath": "Views/HotelPage/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/HotelPage/Create.cshtml",
+      "TargetPath": "Views/HotelPage/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Shared/_Layout_Admin.cshtml",
       "TargetPath": "Views/Shared/_Layout_Admin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Hotel/Index.cshtml",
+      "TargetPath": "Views/Admin/Hotel/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Hotel/Details.cshtml",
+      "TargetPath": "Views/Admin/Hotel/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/Delete.cshtml",
+      "TargetPath": "Views/Booking/Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20541,13 +20596,28 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/User/Index.cshtml",
-      "TargetPath": "Views/User/Index.cshtml",
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/HotelPage/Edit.cshtml",
+      "TargetPath": "Views/HotelPage/Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/User/Create.cshtml",
-      "TargetPath": "Views/User/Create.cshtml",
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/Details.cshtml",
+      "TargetPath": "Views/Booking/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/BookingAdmin/Edit.cshtml",
+      "TargetPath": "Views/Admin/BookingAdmin/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Hotel/Delete.cshtml",
+      "TargetPath": "Views/Admin/Hotel/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/BookingAdmin/Index.cshtml",
+      "TargetPath": "Views/Admin/BookingAdmin/Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20556,8 +20626,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/WebHotel/Index.cshtml",
-      "TargetPath": "Views/WebHotel/Index.cshtml",
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/User/Delete.cshtml",
+      "TargetPath": "Views/Admin/User/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/Book.cshtml",
+      "TargetPath": "Views/Booking/Book.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/History.cshtml",
+      "TargetPath": "Views/Booking/History.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20566,8 +20646,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/BookingAdmin/Details.cshtml",
+      "TargetPath": "Views/Admin/BookingAdmin/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Dashboard/Index.cshtml",
       "TargetPath": "Views/Admin/Dashboard/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/Create.cshtml",
+      "TargetPath": "Views/Booking/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Auth/Login.cshtml",
+      "TargetPath": "Views/Auth/Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20576,8 +20671,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/User/Edit.cshtml",
-      "TargetPath": "Views/User/Edit.cshtml",
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/HotelPage/Index.cshtml",
+      "TargetPath": "Views/HotelPage/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/User/Index.cshtml",
+      "TargetPath": "Views/Admin/User/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/BookingAdmin/Create.cshtml",
+      "TargetPath": "Views/Admin/BookingAdmin/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/BookingAdmin/Delete.cshtml",
+      "TargetPath": "Views/Admin/BookingAdmin/Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20601,8 +20711,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/User/Create.cshtml",
+      "TargetPath": "Views/Admin/User/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Admin/Role/Delete.cshtml",
       "TargetPath": "Views/Admin/Role/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/mygetzu/BENY/MEGA/Project/C#/DOTNET/MVC/HollyProject/Views/Booking/RequestReschedule.cshtml",
+      "TargetPath": "Views/Booking/RequestReschedule.cshtml",
       "FileKind": "mvc"
     }
   ],

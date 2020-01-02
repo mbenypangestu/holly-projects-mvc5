@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using HollyProject.Models;
 
-namespace MvcMovie.Data
+namespace HollyProject.Data
 {
     public class HollyProjectContext : DbContext
     {
@@ -12,6 +12,10 @@ namespace MvcMovie.Data
 
         public DbSet<User> User { get; set; }
 
-        public DbSet<HollyProject.Models.Role> Role { get; set; }
+        public DbSet<Role> Role { get; set; }
+
+        public DbSet<Hotel> Hotel { get; set; }
+
+        public DbSet<HollyProject.Models.Booking> Booking { get; set; }
     }
 }
